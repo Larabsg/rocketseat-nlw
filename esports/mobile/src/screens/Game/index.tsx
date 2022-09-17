@@ -23,6 +23,7 @@ export function Game() {
   function handleGoBack() {
     navigation.goBack()
   }
+  
 
   useEffect(() => {
     fetch(`http://192.168.3.15:3333/games/${game.id}/ads`)
